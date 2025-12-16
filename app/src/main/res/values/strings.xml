@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ApkInventario</string>
+    <string name="title_home">Home</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_profile">Profile</string>
+    <string name="start">Start</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello Blank Fragment</string>
+    <string name="let_s_get_you_signed_in">Let\'s get you signed in!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="did_you_forget_the_password">Did you forget the password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_with">Login with</string>
+    <string name="welcome_to_inventario">Welcome to Inventario!</string>
+    <string name="your_name">Your name</string>
+    <string name="register_with">Register with</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="verifying_your_account">Verifying your account</string>
+    <string name="enter_the_6_digit_code_sent_to_your_email">Enter the 6-digit code sent to your email</string>
+    <string name="verify">Verify</string>
+    <string name="verification_code">Verification code</string>
+    <string name="didn_t_receive_the_code_resend">Didn\'t receive the code? Resend</string>
+    <string name="welcome">Welcome!</string>
+    <string name="view_inventory">View inventory</string>
+    <string name="add_product">Add product</string>
+    <string name="search_product">Search product</string>
+    <string name="configuration">Configuration</string>
+    <string name="log_out">Log out</string>
+    <string name="view_inventory_input">View inputs</string>
+    <string name="view_inventory_output">View outputs</string>
+    <string name="record_the_output_of_items_from_inventory_due_to_sale_disposal_or_use">Record the output of items from inventory due to sale, disposal, or use.</string>
+    <string name="output_record">Output record</string>
+    <string name="register_output">Register output</string>
+    <string name="use_this_section_to_add_new_items_or_units_to_the_inventory">Use this section to add new items or units to the inventory.</string>
+    <string name="input_record">Input record</string>
+    <string name="back">Back</string>
+    <string name="here_you_can_see_your_inventory_items_marked_as_favorites">Here you can see your inventory items marked as favorites.</string>
+    <string name="let_s_get_you_registered">Let\'s get you registered!</string>
+    <string name="receive_low_stock_notifications">Receive low stock notifications</string>
+    <string name="current_language_english">Current language: English</string>
+    <string name="version_0_1_0">Version 0.2.0</string>
+    <string name="username">Username</string>
+</resources>

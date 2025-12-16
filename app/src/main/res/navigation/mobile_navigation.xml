@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_splash">
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_navigation_splash_to_navigation_login"
+            app:destination="@id/navigation_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_register"
+            app:destination="@id/navigation_register" />
+        <action
+            android:id="@+id/action_navigation_login_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_navigation_register_to_navigation_verify"
+            app:destination="@id/navigation_verify" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_verify"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Verify"
+        android:label="fragment_verify"
+        tools:layout="@layout/fragment_verify" />
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Settings"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Favorites"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Input"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_input" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_cart"
+            app:destination="@id/navigation_cart" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_menu"
+            app:destination="@id/navigation_menu" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_favorites"
+            app:destination="@id/navigation_favorites" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/productSelect"
+        android:name="com.edujosepardo.apkcavoshcafejp.ui.Output"
+        android:label="fragment_product_select"
+        tools:layout="@layout/fragment_output" />
+</navigation>

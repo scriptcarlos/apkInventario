@@ -1,7 +1,10 @@
-package com.edujosepardo.apkcavoshcafejp.ui;
+package com.edujosepardo.apkinventario.ui;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,15 +12,11 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.edujosepardo.apkcavoshcafejp.databinding.FragmentOutputBinding;
+import com.edujosepardo.apkinventario.databinding.FragmentVerifyBinding;
 
 
-public class Output extends Fragment {
-    FragmentOutputBinding binding;
+public class Verify extends Fragment {
+    FragmentVerifyBinding binding;
     Context context;
     NavController navController;
     View view;
@@ -30,7 +29,7 @@ public class Output extends Fragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        binding = FragmentOutputBinding.inflate(inflater, container, false);
+        binding = FragmentVerifyBinding.inflate(inflater, container, false);
         return view = binding.getRoot();
     }
 

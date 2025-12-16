@@ -1,4 +1,4 @@
-package com.edujosepardo.apkcavoshcafejp.ui;
+package com.edujosepardo.apkinventario.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.edujosepardo.apkcavoshcafejp.databinding.FragmentLoginBinding;
+import com.edujosepardo.apkinventario.databinding.FragmentLoginBinding;
 
 
 public class Login extends Fragment {
