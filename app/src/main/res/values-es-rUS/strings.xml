@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">apkCavoshCafeJP</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_menu">Menú</string>
+    <string name="title_cart">Carrito</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="title_profile">Perfil</string>
+    <string name="start">Empezar</string>
+    <string name="let_s_get_you_signed_in">Vamos a iniciar sesión!</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrar</string>
+    <string name="mail">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="did_you_forget_the_password">¿Olvidaste la contraseña?</string>
+    <string name="sign_in">Ingresar</string>
+    <string name="login_with">Iniciar sesión con</string>
+    <string name="welcome_to_inventario">¡Bienvenido a Inventario!</string>
+    <string name="your_name">Tu nombre</string>
+    <string name="register_with">Registrar con</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="verifying_your_account">Verificando tu cuenta</string>
+    <string name="enter_the_6_digit_code_sent_to_your_email">Ingrese el código de 6 dígitos enviado a su correo</string>
+    <string name="verify">Verificar</string>
+    <string name="verification_code">Código de verificación</string>
+    <string name="didn_t_receive_the_code_resend">¿No recibiste el código? Reenviar</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="view_inventory">Ver inventario</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="search_product">Buscar producto</string>
+    <string name="configuration">Configuración</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="view_inventory_input">Ver entradas</string>
+    <string name="view_inventory_output">Ver salidas</string>
+    <string name="record_the_output_of_items_from_inventory_due_to_sale_disposal_or_use">Registra la salida de artículos del inventario por venta, desecho o uso.</string>
+    <string name="output_record">Registro de salida</string>
+    <string name="register_output">Registrar salida</string>
+    <string name="use_this_section_to_add_new_items_or_units_to_the_inventory">Utiliza esta sección para añadir nuevos artículos o unidades al inventario.</string>
+    <string name="input_record">Registro de entrada</string>
+    <string name="back">Atrás</string>
+    <string name="here_you_can_see_your_inventory_items_marked_as_favorites">Aquí podrás ver tus artículos del inventario marcados como favoritos.</string>
+    <string name="let_s_get_you_registered">Vamos a registrar!</string>
+    <string name="receive_low_stock_notifications">Recibir notificaciones de stock bajo</string>
+    <string name="current_language_english">Idioma actual: Español</string>
+    <string name="version_0_1_0">Versión 0.2.0</string>
+    <string name="username">Nombre de usuario</string>
+</resources>
